@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #fafbfe;
+}
+
+.logo {
+    width: 60%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-bottom: 7%;
+    cursor: pointer;
+}
+
+.nav-item li {
+    list-style: none;
+    display: flex;
+    gap: 5%;
+}
+
+.toggle-btn {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    display: none;
+}
+
+
+
+
+
+.arrow1 {
+    float: right;
+}
+
+.ji {
+    border: none;
+    padding-top: 0%;
+}
+
+.ji div {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #4f4f4f;
+    padding-bottom: 5px;
+}
+
+.ji a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.gh {
+    color: black;
+    width: 205px;
+    padding: 0%;
+    border: none;
+    background-color: #fff;
+}
+
+.gh span {
+    margin-left: 0%;
+    float: left;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.header {
+    display: inline-block;
+    position: fixed;
+
+}
+
+.header-right-sec {
+    margin-bottom: 1%;
+    width: 80%;
+    height: 65px;
+    box-shadow: 0px 0px 3px 0px rgb(195, 195, 195);
+    background-color: white;
+    position: fixed;
+    top: 0%;
+}
+
+#user {
+    cursor: pointer;
+    padding: 3px 9px;
+}
+
+.profile {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.dollar-sign {
+    width: 38px;
+    color: #ffffff;
+    background-color: #ffb52c;
+    font-size: 1.2em;
+    border-radius: 7px;
+    padding: 6px 7px;
+    text-align: center;
+    margin-right: 8px;
+    margin-top: 43%;
+
+}
+
+.person {
+    font-size: 2em;
+    margin-top: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-right: 30%;
+}
+
+.green-circle {
+    margin-right: 7px;
+    font-size: 0.4em;
+    color: rgb(47, 255, 47);
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    bottom: 10%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.online {
+    cursor: pointer;
+}
+
+.money {
+    cursor: pointer;
+}
+
+.name label {
+    font-size: 0.8em;
+}
+
+.item,
+.arrow1,
+.arrow2 {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    width: 20%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    position: absolute;
+    right: 0%;
+    margin-top: 5.5%;
+    width: 80%;
+    height: auto;
+    background-color: #fafbfe;
+}
+
+.screen {
+    display: flex;
+}
+
+.boxx {
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 7px;
+    display: flex;
+    padding: 10px;
+}
+
+
+
+
+
+.icon {
+    background-color: rgb(247, 229, 229);
+    border-radius: 50%;
+    padding: 7px;
+    width: 45px;
+    height: 45px;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.dollar {
+    padding: 10px;
+    padding-top: 22px;
+    line-height: 0.6em;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 0.9em;
+    font-weight: 420;
+}
+
+
+
+
+
+
+
+
+.section2 {
+    margin-top: 2%;
+}
+
+.color {
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#navy {
+    background-color: #1b2850;
+}
+
+#blue {
+    background-color: #00cfe8;
+}
+
+#pink {
+    background-color: #f48c9e;
+}
+
+#green {
+    background-color: #28c76f;
+}
+
+#yellow {
+    background-color: #f8b425;
+}
+
+#purple {
+    background-color: #716aca;
+}
+
+#orange {
+    background-color: #ff9f43;
+}
+
+.number {
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0%;
+}
+
+.text-white {
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+}
+
+
+
+
+.last-section-table {
+    width: 100%;
+    font-size: 0.9em;
+    height: auto;
+    text-align: left;
+}
+
+.table-head {
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 3%;
+}
+
+.table-head h2 {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1348px) {
+    .toggle-btn {
+        display: block;
+    }
+
+
+    .header-right-sec {
+        width: 100%;
+    }
+
+    .profile {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .table-head {
+        margin-left: 100px;
+        float: left;
+        margin-left: 0%;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:1205px) {
+    .dollar {
+        line-height: 1em;
+    }
+
+    .main {
+        margin-top: 8%;
+    }
+}
+
+
+
+@media only screen and (max-width:995px) {
+    .table-head {
+        width: 100%;
+        margin-right: 30%;
+        margin-left: 0%;
+    }
+}
+
+
+
+@media only screen and (max-width:792px) {
+    .main {
+        margin-top: 10%;
+    }
+
+    #user {
+        padding: 3px 5px;
+        font-size: 0.7em;
+    }
+
+    .name label {
+        font-size: 0.6em;
+    }
+
+    .dollar-sign {
+        width: 30px;
+        height: auto;
+        font-size: 1em;
+        margin-top: 40%;
+    }
+
+    .person {
+        font-size: 1.5em;
+        margin-top: 40%;
+        height: auto;
+    }
+
+    .header-right-sec {
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (max-width:450px) {
+
+    .main {
+        margin-top: 100%;
+    }
+
+}
+
+@media only screen and (max-width:675px) {
+    .main {
+        margin-top: 15%;
+    }
+}
